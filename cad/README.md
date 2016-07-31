@@ -1,7 +1,11 @@
 Vendotron CAD Model
 ==================
 
-The CAD model was built using Autodesk Fusion 360.  Download it here: [Vendotron Model](http://a360.co/1SlLiPD)
+The full vendotron CAD model was built using Autodesk Fusion 360.
 
-<iframe src="https://myhub.autodesk360.com/ue29c30eb/shares/public/SHabee1QT1a327cf2b7a1d92b22b09ca4923?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+Download it here: [Vendotron Model](http://a360.co/1SlLiPD)
 
+Components requiring 3D printing are available here as STL files as well:
+
+* electronics_enclosure.stl - An enclosure to house the vendotron circuit board that can be mounted to the bottom side of the box bottom (next to where the stepper motor is mounted).
+* servo_mount.stl - The servo mount used for to mount the micro servos on the box front acrylic next to the door lock bolts.
