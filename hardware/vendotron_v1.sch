@@ -6180,8 +6180,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="0" y1="22.86" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
-<label x="-15.24" y="22.86" size="1.778" layer="95"/>
+<wire x1="0" y1="22.86" x2="-12.7" y2="22.86" width="0.1524" layer="91"/>
+<label x="-12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SERVO1" class="0">
@@ -6248,8 +6248,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="STEP_N" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A1"/>
-<wire x1="0" y1="27.94" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
-<label x="-15.24" y="27.94" size="1.778" layer="95"/>
+<wire x1="0" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<label x="-12.7" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="STEP"/>
@@ -6263,8 +6263,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A2"/>
-<wire x1="0" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
-<label x="-15.24" y="33.02" size="1.778" layer="95"/>
+<wire x1="0" y1="33.02" x2="-12.7" y2="33.02" width="0.1524" layer="91"/>
+<label x="-12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2" class="0">
@@ -6325,6 +6325,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="U$2" gate="G$1" pin="M1"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EN_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="EN_N"/>
+<wire x1="5.08" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A4"/>
+<wire x1="0" y1="43.18" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
+<label x="-12.7" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
